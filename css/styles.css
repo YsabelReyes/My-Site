@@ -146,28 +146,13 @@ a:hover{
 
 
   /*Media Query*/
-
-@media (max-width: 500px) {
-    .top-container{
+  @media (max-width: 1028px) {
+    .mountain-img{
         text-align: center;
-      
+        width: 455px;
     }
-
-    h1{
-        font-size: 4.5em;
-    }
-    .top-cloud{
-        left:5%
+    .bottom-cloud{
+        width: 125px;
     }
     
-.bottom-cloud{
-        top:60%;
-        left:55%;     
-    }
-    .mountain-img{
-        width: 80%;
-        position: static;
-        transform: rotate(0);
-
-    }
 }
