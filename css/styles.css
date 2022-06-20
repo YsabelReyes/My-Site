@@ -152,6 +152,9 @@ a:hover{
         text-align: center;
       
     }
+    h1 {
+        font-size: 4.5em;
+    }
     .top-cloud{
         left:5%
     }
@@ -159,6 +162,7 @@ a:hover{
     .bottom-cloud{
         top:50%;
         left:68%;
+        
         
     }
     .mountain-img{
