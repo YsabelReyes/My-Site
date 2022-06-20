@@ -52,7 +52,7 @@ a:hover{
 .top-container{
     background-color: #E8F9FD;
     position: relative;
-    padding: 50px 0 20px;
+    padding-top: 100px ;
 
 }
 
@@ -93,13 +93,13 @@ a:hover{
 }
 .top-cloud{
     position: absolute;
-    right: 300px;
+    right: 400px;
     top: 50px;
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 350px;
+    left: 400px;
     bottom:300px ;
 }
 
@@ -144,3 +144,27 @@ a:hover{
     text-decoration: none;
   }
 
+
+  /*Media Query*/
+
+@media (max-width: 500px) {
+    .top-container{
+        text-align: center;
+      
+    }
+    .top-cloud{
+        left:5%
+    }
+    
+    .bottom-cloud{
+        top:50%;
+        left:68%;
+        
+    }
+    .mountain-img{
+        width: 80%;
+        position: static;
+        transform: rotate(0);
+
+    }
+}
